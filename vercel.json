@@ -12,6 +12,12 @@
   },
   "rewrites": [
     {
+      "source": "/(auth|busca|api|health)(.*)",
+      "destination": {
+        "service": "back"
+      }
+    },
+    {
       "source": "/(.*)",
       "destination": {
         "service": "front"
