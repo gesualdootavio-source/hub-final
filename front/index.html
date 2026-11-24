@@ -1,0 +1,21 @@
+<!--
+  Correção: este arquivo deve ser somente o entrypoint HTML da SPA.
+  Motivo (conforme indicado pelo professor): não devemos incluir JSX
+  ou componentes React diretamente no `index.html`. O navegador não
+  interpreta JSX; o React é carregado via `main.jsx` e monta a aplicação
+  no elemento `#root`. Incluir código React/JSX no HTML fez a SPA
+  inicializar incorretamente na página Home ao invés de deixar
+  o React controlar as rotas e a autenticação.
+-->
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moléculas em Prova</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/main.jsx"></script>
+  </body>
+</html>

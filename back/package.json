@@ -1,0 +1,22 @@
+{
+  "name": "hub-conhecimento-api",
+  "version": "4.0.0",
+  "description": "API do Hub do Conhecimento - Projeto Final",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.13.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "type": "commonjs"
+}

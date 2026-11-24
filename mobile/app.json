@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "Moléculas em Prova",
+    "slug": "hub-conhecimento-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": { "resizeMode": "contain", "backgroundColor": "#0f172a" },
+    "ios": { "supportsTablet": true, "bundleIdentifier": "com.suricateam.moleculas" },
+    "android": { "package": "com.suricateam.moleculas" },
+    "extra": { "apiUrl": "https://SEU-DOMINIO.com.br" }
+  }
+}
